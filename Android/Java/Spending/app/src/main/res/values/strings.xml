@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spending</string>
+    <string name="e">Entertaiment</string>
+    <string name="t">Transportation</string>
+    <string name="fd">Food and Drink</string>
+    <string name="i">Internet</string>
+    <string-array name="categories">
+        <item>@string/e</item>
+        <item>@string/t</item>
+        <item>@string/fd</item>
+        <item>@string/i</item>
+    </string-array>
+</resources>
