@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationActivity"
+    android:orientation="vertical">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cinema CGP Alpha"
+            android:icon="@drawable/baseline_location_on_24"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cinema CGP Beta"
+            android:icon="@drawable/baseline_location_on_24"/>
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_margin="10dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/fcv_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
