@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Kontrol Keuangan</string>
-    <string name="tittle_asset">Uang</string>
-    <string name="tittle_lend">Hutang</string>
-    <string name="Update">UPDATE</string>
-    <string name="Save">SAVE</string>
-</resources>
