@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_weight="1">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@+id/regis_container" android:padding="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="REGISTER\nMOVIE CATALOG"
+                android:textAlignment="center"
+                android:textSize="14pt"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <EditText
+                    android:id="@+id/etEmailreg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/label_regis_email"
+                    android:background="#00000000"
+                    android:drawableStart="@drawable/ic_username"
+                    android:drawablePadding="@dimen/content_vertical_margin_medium"
+                    android:hint="@string/label_regis_email"
+                    android:inputType="text"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/username_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <EditText
+                    android:id="@+id/etUsernamereg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/label_regis_username"
+                    android:background="#00000000"
+                    android:drawableStart="@drawable/ic_username"
+                    android:drawablePadding="@dimen/content_vertical_margin_medium"
+                    android:hint="@string/label_regis_username"
+                    android:inputType="text"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <EditText
+                    android:id="@+id/etPasswordreg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/label_regis_password"
+                    android:background="#00000000"
+                    android:drawableStart="@drawable/ic_password"
+                    android:drawablePadding="@dimen/content_vertical_margin_medium"
+                    android:hint="@string/label_regis_password"
+                    android:inputType="textPassword"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/repassword_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <EditText
+                    android:id="@+id/etRepasswordreg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/label_regis_repassword"
+                    android:background="#00000000"
+                    android:drawableStart="@drawable/ic_password"
+                    android:drawablePadding="@dimen/content_vertical_margin_medium"
+                    android:hint="@string/label_regis_repassword"
+                    android:inputType="textPassword"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:textColor="@android:color/black"
+                android:id="@+id/btnRegister"
+                android:backgroundTint="@color/green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/txt_regis1" />
+
+            <ImageButton
+                android:id="@+id/btnBackreg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_button1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

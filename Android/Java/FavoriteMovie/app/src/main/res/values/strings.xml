@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Favorite Movie</string>
+    <string name="txt_login">Login</string>
+    <string name="label_login_email">Email</string>
+    <string name="label_login_password">Password</string>
+
+    <string name="txt_regis">Register Here</string>
+    <string name="txt_regis1">Register</string>
+    <string name="label_regis_email">Email</string>
+    <string name="label_regis_username">Username</string>
+    <string name="label_regis_password">Password</string>
+    <string name="label_regis_repassword">Re-enter Password</string>
+    <string name="txt_backlogin">Back to Login</string>
+    <string name="txt_logout">Logout</string>
+
+    <string name="navigation_open_drawer">Open drawer</string>
+    <string name="navigation_close_drawer">Close drawer</string>
+</resources>

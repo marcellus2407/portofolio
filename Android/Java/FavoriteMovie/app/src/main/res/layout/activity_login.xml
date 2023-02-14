@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_weight="1">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@+id/login_container"
+            android:padding="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:textAlignment="center"
+                android:text="LOGIN\nMOVIE CATALOG"
+                android:textSize="14pt"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+                <EditText
+                    android:id="@+id/etEmaillogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/label_login_email"
+                    android:background="#00000000"
+                    android:drawableStart="@drawable/ic_username"
+                    android:drawablePadding="@dimen/content_vertical_margin_medium"
+                    android:hint="@string/label_login_email"
+                    android:inputType="text"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+                <EditText
+                    android:id="@+id/etPasswordlogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/label_login_password"
+                    android:background="#00000000"
+                    android:drawableStart="@drawable/ic_password"
+                    android:drawablePadding="@dimen/content_vertical_margin_medium"
+                    android:hint="@string/label_login_password"
+                    android:inputType="textPassword"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:textColor="@android:color/white"
+                android:id="@+id/btnLogin"
+                android:background="@drawable/bg_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/txt_login" />
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click here to register"
+                android:textColor="#22559c"
+                android:layout_gravity="center"
+                android:layout_marginTop="30px" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
