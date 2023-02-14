@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="title_activity_add_stories">AddStoriesActivity</string>
+    <string name="loginsuccess">Login success</string>
+    <string name="loginfail">Login fail</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="languagesetting">Language Setting</string>
+    <string name="logout">Logout</string>
+    <string name="registersuccess">Regis success</string>
+    <string name="registerfail">Regis fail</string>
+    <string name="addstory">Add New Story</string>
+    <string name="loadsuccess">Load Success</string>
+    <string name="loadfail">Load Fail</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="description">description</string>
+    <string name="cam">camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="add">add</string>
+    <string name="notallowed">not allowed</string>
+    <string name="successup">You can upload story</string>
+    <string name="failedup">You can\'t upload story</string>
+    <string name="failpicture">Can\'t take a picture</string>
+    <string name="failedshow">Can\'t show camera</string>
+</resources>
