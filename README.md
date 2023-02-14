@@ -1,6 +1,6 @@
 ### Hi there 👋, My name is Filbert Marcellus
 #### This page is used to put the portfolio projects that I made before.
-<img src="https://drive.google.com/uc?id=1wrM0pnRt9ekLYGTzIzxWWDJ-VYBC_t5F" alt="This page is used to put the portfolio projects that I made before." width="70px" height="40px">
+<img src="https://drive.google.com/uc?id=1wrM0pnRt9ekLYGTzIzxWWDJ-VYBC_t5F" alt="This page is used to put the portfolio projects that I made before." width="210px" height="120px">
 
 I am Application Development Programmer. Currently focusing on Android and API.
 
