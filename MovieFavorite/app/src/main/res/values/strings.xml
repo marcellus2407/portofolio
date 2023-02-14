@@ -1,0 +1,12 @@
+<resources>
+	<string name="app_name">Movie Favorite</string>
+	<string name="save">Add to favorite</string>
+	<string name="fav">Favorite</string>
+	<string name="set">Settings</string>
+	<string name="home">Home</string>
+	<string name="va">Vote Average</string>
+	<string name="add_success">Movie added to favorite</string>
+	<string name="delete_success">Movie deleted from favorite</string>
+	<string name="error">Error occured</string>
+	<string name="instruction">Do long click to delete from list</string>
+</resources>
