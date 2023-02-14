@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/asset"
+        android:icon="@drawable/ic_asset"
+        app:showAsAction="ifRoom"
+        android:title="@string/tittle_asset"/>
+    <item
+        android:id="@+id/lend"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_lend"
+        android:title="@string/tittle_lend"/>
+</menu>
